@@ -76,7 +76,7 @@
             this.lstVector.FormattingEnabled = true;
             this.lstVector.Location = new System.Drawing.Point(30, 205);
             this.lstVector.Name = "lstVector";
-            this.lstVector.Size = new System.Drawing.Size(149, 212);
+            this.lstVector.Size = new System.Drawing.Size(166, 212);
             this.lstVector.TabIndex = 4;
             // 
             // Form1

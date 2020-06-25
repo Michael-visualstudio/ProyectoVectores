@@ -28,5 +28,19 @@ namespace ProyectoVectores
                 }
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(this.txtNumero.Text, out int num))
+            {
+                Int32 x = clases.NumLetras.getMayor(num);
+                this.textBox1.Text = x.ToString();
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
