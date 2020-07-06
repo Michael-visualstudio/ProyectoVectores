@@ -1,6 +1,6 @@
 ﻿namespace ProyectoVectores
 {
-    partial class Form1
+    partial class frmVector
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -79,7 +79,7 @@
             this.lstVector.Size = new System.Drawing.Size(166, 212);
             this.lstVector.TabIndex = 4;
             // 
-            // Form1
+            // frmVector
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -89,7 +89,7 @@
             this.Controls.Add(this.btnOrdenar);
             this.Controls.Add(this.txtNumero);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "frmVector";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

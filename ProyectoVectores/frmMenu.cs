@@ -100,7 +100,7 @@ namespace ProyectoVectores
 
         private void ordenarVectorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 frm1 = new Form1();
+            frmVector frm1 = new frmVector();
             frm1.MdiParent = this;
             frm1.WindowState = FormWindowState.Maximized;
             frm1.Show();

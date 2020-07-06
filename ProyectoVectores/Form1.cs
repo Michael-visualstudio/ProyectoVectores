@@ -11,12 +11,12 @@ using System.Windows.Forms;
 
 namespace ProyectoVectores
 {
-    public partial class Form1 : Form
+    public partial class frmVector : Form
     {
         const int MAX = 100;
         private int[] vector = new int[MAX];
         private int contador = 0;
-        public Form1()
+        public frmVector()
         {
             InitializeComponent();
         }
